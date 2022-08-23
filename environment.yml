@@ -1,0 +1,11 @@
+name: london-data
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - geopandas=0.10.2
+  - jupyterlab=3.4.5 
+  - rioxarray=0.12.0
+  - rasterstats=0.16.0
+  - matplotlib=3.5.3
+
