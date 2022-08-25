@@ -13,7 +13,12 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 - `london2011-lsoa_simple.csv` - as for `london2011-lsoa.shp` but with simplified polygons for smaller file size. [[Source Code]](https://github.com/jamesdamillington/london-data/blob/main/code/london-census2011-geography.ipynb)  
 - `london2011-lsoa_trunc.csv` - as for `london2011-lsoa_simple.csv` but with integer co-ordinates for even smaller file size. [[Source Code]](https://github.com/jamesdamillington/london-data/blob/main/code/london-census2011-geography.ipynb)
 
+> Source: Office for National Statistics licensed under the Open Government Licence v.3.0  
+Contains OS data © Crown copyright and database right (2022)
+
 ## Population
 Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/population) as follows:
 - `london-mid2020-pop.csv` - LSOA mid-year population estimates for 2020. [[Source Code]](https://github.com/jamesdamillington/london-data/blob/main/code/london-population-midyear-estimates.ipynb)
 - `london-mid2019-pop.csv` - LSOA mid-year population estimates for 2019. [[Source Code]](https://github.com/jamesdamillington/london-data/blob/main/code/london-population-midyear-estimates.ipynb)
+
+>Source: Office for National Statistics licensed under the Open Government Licence.
