@@ -29,3 +29,7 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 - `london-2010-2020-elec.csv` - LSOA domestic electricity consumption for 2010-2020. [[Source Code]](https://github.com/jamesdamillington/london-data/blob/main/code/london-energy-2010-2020.ipynb)
 
 >Source: Department for Business, Energy & Industrial Strategy
+
+## Crime
+
+Files added but need to do more checks.
