@@ -13,7 +13,7 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 - `london-2011-lsoa-simple.csv` - as for `london-2011-lsoa.shp` but with simplified polygons for smaller file size. [[Source Code]](https://github.com/jamesdamillington/london-data/blob/main/code/london-census2011-geography.ipynb)  
 - `london-2011-lsoa-trunc.csv` - as for `london-2011-lsoa-simple.csv` but with integer co-ordinates for even smaller file size. [[Source Code]](https://github.com/jamesdamillington/london-data/blob/main/code/london-census2011-geography.ipynb)
 
-> Source: Office for National Statistics licensed under the Open Government Licence v.3.0  
+> Source: Office for National Statistics licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)  
 Contains OS data © Crown copyright and database right (2022)
 
 ## Population
@@ -21,7 +21,7 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 - `london-mid2020-pop.csv` - LSOA mid-year population estimates for 2020.
 - `london-mid2019-pop.csv` - LSOA mid-year population estimates for 2019.
 
->Source: Office for National Statistics licensed under the Open Government Licence.
+>Source: Office for National Statistics licensed under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm).
 
 ## Energy
 Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/energy) as follows:
@@ -31,19 +31,29 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 >Source: Department for Business, Energy & Industrial Strategy
 
 ## Crime
-Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/crime) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-crime-2011-2020.ipynb) as follows:
-- `london-2011-2021-major-arson` - LSOA annual Arson and Criminal Damage crimes (major category)
-- `london-2011-2021-major-burglary` - LSOA annual Burglary crimes (major category)
-- `london-2011-2021-major-drugs` - LSOA annual Drug Offences crimes (major category)
-- `london-2011-2021-major-misc` - LSOA annual Miscellaneous Crimes Against Society crimes (major category)
-- `london-2011-2021-major-weapons` - LSOA annual Possession of Weapons crimes (major category)
-- `london-2011-2021-major-public-order` - LSOA annual Public Order Offences crimes (major category)
-- `london-2011-2021-major-robbery` - LSOA annual Robbery crimes (major category)
-- `london-2011-2021-major-sexual` - LSOA annual Sexual Offences crimes (major category)
-- `london-2011-2021-major-theft-all` - LSOA annual Theft (non-vehicle) crimes (major category)
-- `london-2011-2021-major-vehicle-offences` - LSOA annual Vehicle Offences crimes (major category)
-- `london-2011-2021-major-violence` - LSOA annual Violence Against the Person crimes (major category)
-- `london-2011-2021-minor-theft-bicycle` - LSOA annual Bicycle Theft crimes (minor category)
-- `london-2011-2021-minor-theft-vehicle` - LSOA annual Theft or Taking of a Motor Vehicle crimes (minor category)
+Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/crime) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-crime-2011-2020.ipynb) contain annual counts per LOSA as follows:
+- `london-2011-2021-major-arson` - Arson and Criminal Damage crimes (major category)
+- `london-2011-2021-major-burglary` - Burglary crimes (major category)
+- `london-2011-2021-major-drugs` - Drug Offences crimes (major category)
+- `london-2011-2021-major-misc` - Miscellaneous Crimes Against Society crimes (major category)
+- `london-2011-2021-major-weapons` - Possession of Weapons crimes (major category)
+- `london-2011-2021-major-public-order` - Public Order Offences crimes (major category)
+- `london-2011-2021-major-robbery` - Robbery crimes (major category)
+- `london-2011-2021-major-sexual` - Sexual Offences crimes (major category)
+- `london-2011-2021-major-theft-all` - Theft (non-vehicle) crimes (major category)
+- `london-2011-2021-major-vehicle-offences` - Vehicle Offences crimes (major category)
+- `london-2011-2021-major-violence` - Violence Against the Person crimes (major category)
+- `london-2011-2021-minor-theft-bicycle` - Bicycle Theft crimes (minor category)
+- `london-2011-2021-minor-theft-vehicle` - Theft or Taking of a Motor Vehicle crimes (minor category)
 
 > Source: [Metropolitan Police Service](https://data.london.gov.uk/dataset/recorded_crime_summary) licensed under the [Open Government Licence v.2.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)  
+
+## Air Quality
+Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/airquality) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-airquality.ipynb) are modelled ground level concentrations of pollution summarised for LSOAs from 20m grid resolution data (#### is year 2019, 2016 or 2013):
+- `london-####-PM25` - annual mean PM2.5 (microgramme per cubic metre)  
+- `london-####-PM10` - annual mean PM10 (microgramme per cubic metre)  
+- `london-####-PM10d` - number times daily mean PM10 exceeded 50 microgramme per cubic metre
+- `london-####-NOx` - annual mean NOx (microgramme per cubic metre)
+- `london-####-NO2` - annual mean NO2 (microgramme per cubic metre)
+
+> Source: [London Atmospheric Emissions Inventory (LAEI)](https://data.london.gov.uk/air-quality/) licensed under the [Open Government Licence v.2.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)  
