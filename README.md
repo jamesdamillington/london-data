@@ -23,6 +23,8 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 
 >Source: Office for National Statistics licensed under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm).
 
+Note: joining these data to 2011 census geographies is not entirely appropriate (e.g. see issue in the [source code notebook](https://github.com/jamesdamillington/london-data/blob/main/code/london-population-midyear-estimates.ipynb))
+
 ## Energy
 Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/energy) as follows:
 - `london-2010-2020-gas.csv` - LSOA domestic gas consumption for 2010-2020. [[Source Code]](https://github.com/jamesdamillington/london-data/blob/main/code/london-energy-2010-2020.ipynb)
@@ -57,3 +59,10 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 - `london-####-NO2` - annual mean NO2 (microgramme per cubic metre)
 
 > Source: [London Atmospheric Emissions Inventory (LAEI)](https://data.london.gov.uk/air-quality/) licensed under the [Open Government Licence v.2.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)  
+
+## Household Income
+Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/economic) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-hhold-income-2001-2012.ipynb) are modelled household income estimates for small areas, London, 2001-2012:
+- `london-2001-2012-HHI-mean.csv` - mean total gross household income for LSOAs (2011 geography)
+- `london-2001-2012-HHI-median.csv` - median total gross household income for LSOAs (2011 geography)
+
+> Source: [Greater London Authority](https://data.london.gov.uk/dataset/household-income-estimates-small-areas) licensed under the [Open Government Licence v.2.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)  
