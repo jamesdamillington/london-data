@@ -1,0 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: London Data using ONS Geographies
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: James
+    family-names: Millington
+    email: james.millington@kcl.ac.uk
+    affiliation: King's College London
+    orcid: 'https://orcid.org/0000-0002-5099-0001'
+repository-code: 'https://github.com/jamesdamillington/london-data'
+license: MIT
