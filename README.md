@@ -17,7 +17,7 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 - `london-2011-lsoa-simple.csv` - as for `london-2011-lsoa.shp` but with simplified polygons for smaller file size and csv format ready to work in geopandas.  
 - `london-2011-lsoa-trunc.csv` - as for `london-2011-lsoa-simple.csv` but with integer co-ordinates for even smaller file size and csv format ready to work in geopandas.
 
-Source code for []2021 files here](https://github.com/jamesdamillington/london-data/blob/main/code/london-census2021-geography.ipynb) and for [2011 files here](https://github.com/jamesdamillington/london-data/blob/main/code/london-census2011-geography.ipynb)
+Source code for [2021 files](https://github.com/jamesdamillington/london-data/blob/main/code/london-census2021-geography.ipynb) and for [2011 files ](https://github.com/jamesdamillington/london-data/blob/main/code/london-census2011-geography.ipynb).
 > Source: Office for National Statistics licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)  
 Contains OS data © Crown copyright and database right (2022)
 
