@@ -3,10 +3,12 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - geopandas=0.10.2
-  - jupyterlab=3.4.5 
-  - rioxarray=0.12.0
-  - rasterstats=0.16.0
-  - matplotlib=3.5.3
-  - openpyxl=3.0.9
+  - geopandas=0.13.2
+  - jupyterlab=4.0 
+  - rioxarray
+  - rasterstats=0.19
+  - matplotlib=3.8
+  - numpy=1.23.5
+  - openpyxl
+  - pandas=2.1.0
 
