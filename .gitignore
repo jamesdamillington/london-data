@@ -1,4 +1,5 @@
 /data/inputs/
+*.xlsx
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
