@@ -6,13 +6,13 @@ Boundary data for various geographies the UK ONS uses to produce statistics (e.g
 
 ### Census
 Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/geographies/census) as follows:
-- `london-2021-lsoa-gen20.shp` - LSOA boundaries (generalised to 20m resolution from ONS) for 2021 with codes and names for LSOA, MSOA and LAD. 
-- `london-2021-lsoa-gen20.csv` - as for `london-2021-lsoa-gen20.shp` but csv format ready to work in geopandas (_this is what most King's students will want to currently work with_). 
+- `london-2021-lsoa-gen20.shp` - LSOA boundaries (generalised to 20m resolution from ONS) for 2021 with codes and names for LSOA, MSOA and LAD.
+- `london-2021-lsoa-gen20.csv` - as for `london-2021-lsoa-gen20.shp` but csv format ready to work in geopandas (_this is what most King's students will want to currently work with_).
 - `london-2021-lsoa.shp` - LSOA boundaries (original full resolution from ONS) for 2021 with codes and names for LSOA, MSOA and LAD.
-- `london-2021-lsoa-simple.csv` - as for `london-2021-lsoa.shp` but with simplified polygons for smaller file size and csv format ready to work in geopandas. 
+- `london-2021-lsoa-simple.csv` - as for `london-2021-lsoa.shp` but with simplified polygons for smaller file size and csv format ready to work in geopandas.
 - `london-2021-lsoa-trunc.csv` - as for `london-2021-lsoa-simple.csv` but with integer co-ordinates for even smaller file size and csv format ready to work in geopandas.
-- `london-2011-lsoa-gen20.shp` - LSOA boundaries (generalised to 20m resolution from ONS) for 2011 with codes and names for LSOA, MSOA and LAD. 
-- `london-2011-lsoa-gen20.csv` - as for `london-2011-lsoa-gen20.shp` but csv format ready to work in geopandas. 
+- `london-2011-lsoa-gen20.shp` - LSOA boundaries (generalised to 20m resolution from ONS) for 2011 with codes and names for LSOA, MSOA and LAD.
+- `london-2011-lsoa-gen20.csv` - as for `london-2011-lsoa-gen20.shp` but csv format ready to work in geopandas.
 - `london-2011-lsoa.shp` - LSOA boundaries (original from ONS) for 2011 with codes and names for LSOA, MSOA and LAD.
 - `london-2011-lsoa-simple.csv` - as for `london-2011-lsoa.shp` but with simplified polygons for smaller file size and csv format ready to work in geopandas.  
 - `london-2011-lsoa-trunc.csv` - as for `london-2011-lsoa-simple.csv` but with integer co-ordinates for even smaller file size and csv format ready to work in geopandas.
@@ -56,12 +56,12 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 > Source: [Metropolitan Police Service](https://data.london.gov.uk/dataset/recorded_crime_summary) licensed under the [Open Government Licence v.2.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)  
 
 ## Air Quality
-Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/airquality) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-airquality.ipynb) are modelled ground level concentrations of pollution summarised for LSOAs from 20m grid resolution data (#### is year 2019, 2016 or 2013):
-- `london-####-PM25` - annual mean PM2.5 (microgramme per cubic metre)  
-- `london-####-PM10` - annual mean PM10 (microgramme per cubic metre)  
-- `london-####-PM10d` - number times daily mean PM10 exceeded 50 microgramme per cubic metre
-- `london-####-NOx` - annual mean NOx (microgramme per cubic metre)
-- `london-####-NO2` - annual mean NO2 (microgramme per cubic metre)
+Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/airquality) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-airquality.ipynb) are modelled ground level concentrations of pollution summarised for LSOAs from 20m grid resolution data (££ is data geography year '11 or '21, and #### is AQ data collection year 2019, 2016 or 2013):
+- `london££-####-PM25` - annual mean PM2.5 (microgramme per cubic metre)  
+- `london££-####-PM10` - annual mean PM10 (microgramme per cubic metre)  
+- `london££-####-PM10d` - number times daily mean PM10 exceeded 50 microgramme per cubic metre
+- `london££-####-NOx` - annual mean NOx (microgramme per cubic metre)
+- `london££-####-NO2` - annual mean NO2 (microgramme per cubic metre)
 
 > Source: [London Atmospheric Emissions Inventory (LAEI)](https://data.london.gov.uk/air-quality/) licensed under the [Open Government Licence v.2.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)  
 
