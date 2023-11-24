@@ -63,12 +63,12 @@ Data files [here](https://github.com/jamesdamillington/london-data/tree/main/dat
 > Source: [Metropolitan Police Service](https://data.london.gov.uk/dataset/recorded_crime_summary) licensed under the [Open Government Licence v.2.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)  
 
 ## Air Quality
-Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/airquality) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-airquality.ipynb) are modelled ground level concentrations of pollution summarised for LSOAs from 20m grid resolution data (££ is data geography year '11 or '21, and #### is AQ data collection year 2019, 2016 or 2013):
-- `london££-####-PM25` - annual mean PM2.5 (microgramme per cubic metre)  
-- `london££-####-PM10` - annual mean PM10 (microgramme per cubic metre)  
-- `london££-####-PM10d` - number times daily mean PM10 exceeded 50 microgramme per cubic metre
-- `london££-####-NOx` - annual mean NOx (microgramme per cubic metre)
-- `london££-####-NO2` - annual mean NO2 (microgramme per cubic metre)
+Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/airquality) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-airquality.ipynb) are modelled ground level concentrations of pollution summarised for census zones from 20m grid resolution data. In filenames, XXXX is zoning level (LSOA, MSOA, LAD), ££ is data geography year (11 or 21), and #### is AQ data collection year (2019, 2016 or 2013):
+- `XXXX££-####-PM25` - annual mean PM2.5 (microgramme per cubic metre)  
+- `XXXX££-####-PM10` - annual mean PM10 (microgramme per cubic metre)  
+- `XXXX££-####-PM10d` - number times daily mean PM10 exceeded 50 microgramme per cubic metre
+- `XXXX££-####-NOx` - annual mean NOx (microgramme per cubic metre)
+- `XXXX££-####-NO2` - annual mean NO2 (microgramme per cubic metre)
 
 > Source: [London Atmospheric Emissions Inventory (LAEI)](https://data.london.gov.uk/air-quality/) licensed under the [Open Government Licence v.2.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)  
 
