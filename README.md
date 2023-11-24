@@ -21,6 +21,13 @@ Source code for [2021 files](https://github.com/jamesdamillington/london-data/bl
 > Source: Office for National Statistics licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)  
 Contains OS data © Crown copyright and database right (2022)
 
+### Roads
+Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/geographies/roads) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-roads.ipynb) as follows:
+- london-2018-MRN.shp - [Major Road Network](https://www.data.gov.uk/dataset/95f58bfa-13d6-4657-9d6f-020589498cfd/major-road-network) clipped to extent of London Boroughs
+- london-2023-oproad-MandA.shp - Motorways and A Roads from the [OS Open Roads](https://www.ordnancesurvey.co.uk/products/os-open-roads) data clipped to extent of London Boroughs
+
+> Sources: Department for Transport (2022) licensed under the Open Government Licence v.3.0; Ordnance Survey (OS) licensed under the Open Government Licence v.3.0, Contains OS data © Crown Copyright [and database right] (2023)
+ 
 ## Population
 Data files [here](https://github.com/jamesdamillington/london-data/tree/main/data/population) from [source code](https://github.com/jamesdamillington/london-data/blob/main/code/london-population-midyear-estimates.ipynb) as follows:
 - `london-mid2020-pop.csv` - LSOA mid-year population estimates for 2020.
